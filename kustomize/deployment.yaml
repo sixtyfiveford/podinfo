@@ -20,6 +20,7 @@ spec:
         prometheus.io/port: "9797"
       labels:
         app: podinfo
+        knodl: custom-123
     spec:
       containers:
       - name: podinfod
